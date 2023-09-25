@@ -55,22 +55,38 @@
     font-size: 30px;
     color: #c57ab4;
 }
-
+.home-section1 h1{
+    margin-top: 60px;
+    margin-left: 60px;
+}
+.home-section1 h2{
+    margin-left: 600px;
+    margin-bottom: 70px;
+}
 .home-section2{
+    padding-top: 40px;
+    margin-bottom: 50px;
+    padding-left: 40px;
     font-family: Playfair Display SC;
-    font-size: 32px;
-    height: 100px;
+    font-size: 40px;
+    height: 200px;
     color: white;
     background-color: #fb79ee;
 }
 
 .home-img{
-    width: 100px;
-    height: auto;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 695px;
+    padding-bottom: 90px;
 }
 
 .collections{
     display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
     font-family: Playfair Display SC;
     font-size: 32px;
     color: #c57ab4;
@@ -79,49 +95,79 @@
 .gold-collection{
     display: flex;
     font-family: Playfair Display SC;
-    font-size: 28px;
+    margin-left: 60px;
+    margin-bottom: 60px;
+    font-size: 40px;
     color: #788116;
 }
 
-.collections-img1 {
-    display: flex;
-    width: 80px;
+.grid-container1{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 120px;
+    padding-top: 50px;
+    margin-right: 80px;
 }
-
+.grid-item img{
+    max-width: 100%;
+    height: 430px;
+}
 .silver-collection{
     display: flex;
     font-family: Playfair Display SC;
-    font-size: 28px;
+    margin-left: 60px;
+    margin-bottom: 60px;
+    font-size: 40px;
     color: #837c7c;
 }
 
-.collections-img2 {
-    display: flex;
-    width: 80px;
+.grid-container2{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 120px;
+    padding-top: 50px;
+    margin-right: 80px;
+}
+.grid-item2 img {
+    max-width: 100%;
+    height: 430px;
 }
 
 .new-arrivals {
     display: flex;
     font-family: Playfair Display SC;
-    font-size: 28px;
+    margin-left: 60px;
+    margin-bottom: 60px;
+    font-size: 40px;
     color: #c57ab4;
 }
-
-.collections-img3 {
-    display: flex;
-    width: 80px;
+.grid-container3{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 120px;
+    padding-top: 50px;
+    margin-right: 80px;
+}
+.grid-item3 img{
+    max-width: 100%;
+    height: 430px;
 }
 
 .contacto{
     display: flex;
     font-family: Piazzolla;
+    font-weight: 100;
     font-size: 32px;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
     color: #c57ab4;
 }
 
 .envios-internacionales{
     display: flex;
     font-family: Playfair Display SC;
+    margin-left: 60px;
     font-size: 28px;
     color: #c57ab4;
 }
@@ -129,76 +175,224 @@
 .section1-p{
     display: flex;
     font-family: Playfair Display SC;
-    font-size: 25px;
+    font-weight: bold;
+    font-size: 50px;
+    margin-top: 120px;
+    margin-right: 200px;
     color: #c21e9e;
 }
 
 .contacto-section2{
     display: flex;
     font-family: Playfair Display SC;
+    margin-top: 60px;
+    margin-left: 60px;
     font-size: 28px;
     color: #c57ab4;
 }
-
-.section2-p{
+.whatsapp{
     display: flex;
     font-family: Playfair Display SC;
-    font-size: 25px;
+    font-weight: bold;
+    font-size: 50px;
+    margin-top: 120px;
+    margin-right: 200px;
     color: #c21e9e;
 }
-
+.mail{
+    display: flex;
+    font-family: Playfair Display SC;
+    font-weight: bold;
+    font-size: 50px;
+    margin-top: 120px;
+    margin-right: 200px;
+    color: #c21e9e;
+}
+.direccion{
+    display: flex;
+    font-family: Playfair Display SC;
+    font-weight: bold;
+    font-size: 50px;
+    margin-top: 120px;
+    margin-right: 200px;
+    margin-bottom: 60px;
+    color: #c21e9e;
+}
 .nuestras-referencias{
     display: flex;
     font-family: Playfair Display SC;
     font-size: 32px;
+    margin-top: 50px;
+    margin-left: 300px;
     color: #c57ab4;
 }
 
 .section1-h2{
     display: flex;
     font-family: Playfair Display SC;
-    font-size: 28px;
+    font-size: 35px;
+    margin-left: 110px;
+    margin-top: 50px;
     color: #c21e9e;
 }
 
 .sofia{
     display: flex;
     font-family: Playfair Display SC;
-    font-size: 28px;
+    font-size: 50px;
+    margin-left: 100px;
+    margin-top: 60px;
     color: #c21e9e;
 }
 
 .section2-referencias{
     display: flex;
     font-family: Playfair Display SC;
-    font-size: 25px;
+    font-size: 45px;
+    margin-top: 65px;
     color: #c57ab4;
 }
 
 .emma{
     display: flex;
     font-family: Playfair Display SC;
-    font-size: 28px;
+    font-size: 50px;
+    margin-left: 100px;
+    margin-top: 60px;
     color: #c21e9e;
 }
 
 .section3-referencias{
     display: flex;
     font-family: Playfair Display SC;
-    font-size: 25px;
+    font-size: 45px;
+    margin-top: 65px;
+    margin-bottom: 65px;
     color: #c57ab4;
 }
 
-.login{
+.login-h1{
     display: flex;
     font-family: Playfair Display SC;
-    font-size: 32px;
+    font-size: 60px;
+    margin-top: 50px;
+    margin-left: 550px;
+    color: #c21e9e;
+}
+.login-h2{
+    display: flex;
+    font-family: Playfair Display SC;
+    font-size: 60px;
+    margin-top: 40px;
+    margin-left: 330px;
     color: #c21e9e;
 }
 
-.login-form{
+.nombre{
     display: flex;
     font-family: Playfair Display SC;
-    font-size: 28px;
+    font-size: 50px;
+    margin-top: 100px;
+    margin-left: 80px;
     color: #c57ab4;
+}
+.apellido{
+    display: flex;
+    font-family: Playfair Display SC;
+    font-size: 50px;
+    margin-left: 80px;
+    margin-top: 60px;
+    color: #c57ab4;
+}
+.email{
+    display: flex;
+    font-family: Playfair Display SC;
+    font-size: 50px;
+    margin-left: 80px;
+    margin-top: 60px;
+    color: #c57ab4;
+}
+.nombre-input{
+    display: flex;
+    font-family: Playfair Display SC;
+    font-size: 50px;
+    margin-left: 300px;
+    margin-bottom: 150px;
+    background-color: #fb79ee;
+}
+.apellido-input{
+    display: flex;
+    font-family: Playfair Display SC;
+    font-size: 50px;
+    margin-left: 300px;
+    margin-bottom: 150px;
+    background-color: #fb79ee;
+}
+.email-input{
+    display: flex;
+    font-family: Playfair Display SC;
+    font-size: 50px;
+    margin-left: 300px;
+    margin-bottom: 150px;
+    background-color: #fb79ee;
+}
+#submitBtn{
+    font-family: Playfair Display SC;
+    font-size: 50px;
+    margin-left: 300px;
+    margin-bottom: 100px;
+    background-color: #fb79ee;
+}
+#login-container{
+    border: 0;
+    margin: 0;
+}
+.carousel-inner img{
+    max-height: 600px;
+    max-width: 400px;
+    object-fit: cover;
+    margin-bottom: 90px;
+    margin-left: 500px;
+}
+
+
+
+@media(max-width: 1024px){
+    .whatsapp{
+        margin-top: 300px;
+    }
+    .contacto-section2{
+        margin-left: 300px;
+        justify-content: center;
+    }
+}
+
+@media(max-width: 768px){
+    .header{
+        border-radius: 0;
+        width: 100%;
+        height: 100px;
+        margin-right: 0;
+        padding-top: 0;
+        margin-top: 0;
+        box-shadow: none;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: #f008d9;
+    }
+    .whatsapp{
+        margin-right: 50px;
+    }
+    .contacto-section2{
+        padding-left: 300px;
+    }
+}
+@media(max-width: 425px){
+    .navbar ul{
+        padding-top: 20px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
 }
